@@ -4,8 +4,9 @@ var extend = require('extend');
 var cheerio = require('cheerio');
 var highlight = require('highlight.js');
 
-// 读取模板
-var template = require('./lib/template');
+var fs = require('fs');
+var template = fs.readFileSync( __dirname + "/template.tpl","utf-8");
+
 // 缓存模板
 var $ = cheerio.load(template);
 var $template = $;

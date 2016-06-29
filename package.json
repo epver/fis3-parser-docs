@@ -1,18 +1,18 @@
 {
   "name": "fis3-parser-docs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "fis3 parser plugin, build markdown to html",
   "main": "index.js",
   "dependencies": {
-    "highlight.js": "^9.4.0",
     "cheerio": "^0.20.0",
-    "marked": "^0.3.5",
-    "extend": "*"
+    "extend": "^3.0.0",
+    "highlight.js": "^9.4.0",
+    "marked": "^0.3.5"
   },
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheneyliu/fis3-parser-docs.git"
+    "url": "https://github.com/cheneyliu/fis3-parser-docs.git"
   },
   "keywords": [
     "fis3",
